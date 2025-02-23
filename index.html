@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .buth1 button:hover {
+            background-color: yellow;
+        }
+
+        .buth1 button {
+            font-size: 150%;
+            background-color: lightblue;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .text1 {
+            position: absolute;
+            top: 0%;
+            left: 15%;
+
+        }
+
+        .cent {
+            position: relative;
+            text-align: center;
+            color: yellow;
+
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #ihp {
+            height: 75%;
+            width: 75%;
+            border: 5px solid cyan;
+        }
+
+        .sicon {
+            display: inline;
+        }
+
+        #sm1 {
+            border-radius: 50%;
+            height: 3%;
+            width: 3%;
+        }
+
+        #sm2 {
+            border-radius: 50%;
+            height: 3%;
+            width: 3%;
+        }
+
+        #sm3 {
+            border-radius: 50%;
+            height: 3%;
+            width: 3%;
+        }
+
+        body {
+            background-color: blue;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        #b1 {
+            background-image: url(pphpf.webp);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            background: none;
+        }
+
+        nav ul {
+            margin-top: 0;
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+            width: 100%;
+        }
+
+        nav ul li {
+            flex: 1;
+            text-align: center;
+        }
+
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+
+</head>
+
+<body id="b1">
+    <nav>
+        <ul class="buth1">
+
+            <li><a href="#home"><button>Home</button></a></li>
+            <li><a href="#about"><button>About</button></a></li>
+            <li><a href="#projects"><button>Projects</button></a></li>
+            <li><a href="#extras"><button>Extras</button></a></li>
+            <li><a href="#contact"><button>Contact</button></a></li>
+
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <div class="cent">
+        <img id="ihp" src="pphp2.jpg" alt="Home Page Image" class="center">
+        <div class="text1">
+            <p style="font-size: 80px;">Hi Guys...<br><br>I'm Chehan.<br><br>An Excellent Data Scientist.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer class="mfooter">
+        <div class="sicon">
+            <img id="sm1" src="facebook.png" alt="Facebook">
+            <img id="sm2" src="instagram.png" alt="Instagram">
+            <img id="sm3" src="twitter.png" alt="X">
+        </div>
+        <p>Author: Chehan Gunawardena<br>
+            <a href="mailto:chehangunawardena@gmail.com" style="color: lightblue;">chehangunawardena@gmail.com</a>
+        </p>
+        <div class="footil">
+            <p><a href="#termsandconditions" style="color: cyan; text-decoration: none;">Terms & Conditions</a></p>
+            <p><a href="#privacypolicy" style="color: cyan; text-decoration: none;">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
